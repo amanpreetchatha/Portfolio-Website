@@ -27,6 +27,11 @@ html, body, p{
 }
 
 .intro-div{
-    border: 2px solid black;
-    min-height: 80vh;
+    /* border: 2px solid black; */
+    /* min-height: 80vh; */
+}
+@media screen and (max-width: 768px ){
+    .intro-div{
+        min-height: 80vh;
+    }
 }
