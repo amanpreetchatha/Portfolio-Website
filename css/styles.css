@@ -13,25 +13,37 @@
         "SOFT" 0,
         "WONK" 0;
 }
-html, body, p{
+html, body{
     margin: 0;
     padding: 0;
 }
-.header{
+header{
     background-color: #e6e6e6;
+    
 }
 .profile-img{
-    width: 100%;
+    width: 98%;
     height: 650px;
     object-fit: cover;
 }
+
 
 .intro-div{
     /* border: 2px solid black; */
     /* min-height: 80vh; */
 }
+.bio-img{
+    height: 300px;
+    width: 220px;
+    
+}
 @media screen and (max-width: 768px ){
     .intro-div{
         min-height: 80vh;
+        
     }
+    .profile-img{
+        height: 400px;
+    }
+    
 }
