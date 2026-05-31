@@ -22,9 +22,6 @@ html, body{
     padding: 0;
     
 }
-section{
-    
-}
 .intro{
     background-color: #e6e6e6;
     height: var(--section-height);
@@ -38,7 +35,16 @@ section{
 .bio-img{
     height: 300px;
     width: 220px;
-    
+}
+.ipad-img{
+    width: 260px;
+    height: 350px;
+    object-fit: cover;
+}
+.whiteboard-img{
+    width: 380px;
+    height: 230px;
+    object-fit: cover;
 }
 @media screen and (max-width: 768px ){
     
