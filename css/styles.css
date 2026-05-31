@@ -1,5 +1,5 @@
 :root {
-    --section-height: 600px; 
+    --section-height: 600px;
 }
 
 .sans-serif {
@@ -20,12 +20,14 @@
 html, body{
     margin: 0;
     padding: 0;
+    
 }
 section{
-    height: var(--section-height);
+    
 }
 .intro{
     background-color: #e6e6e6;
+    height: var(--section-height);
 }
 .profile-img{
     height: var(--section-height);
